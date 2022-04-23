@@ -24,3 +24,68 @@ auto, 0, 200px, max-content, min-content, fil-content
 
 */
 
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url("https://st.depositphotos.com/1288156/4466/i/600/depositphotos_44660695-stock-photo-himalaya-mountains-black-and-white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.user_img_container{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.user_img_container > img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+.info_container > *{
+    align-items: center;
+}
+.info_container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media_link{
+    width: 50px;
+    height: 50px;
+}
+
+.media_link + .media_link {
+
+}
+
+
+
+
